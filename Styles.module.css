@@ -1,0 +1,88 @@
+/*  */
+body{
+    background-color: rgb(168, 167, 166);
+    
+}
+.app{
+    width: max-content;
+    margin: 0 auto;
+    box-shadow: 1px 1px 15px 1px black;
+    border-radius: 20px;
+    text-align: center;
+}
+.Header{
+    
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.bal{
+    text-transform: uppercase;
+   
+    margin:20px 0px 0px -200px;
+    font-size: x-large;
+}
+.balAmt{
+    font-size: xx-large;
+    font-weight: normal;
+    margin:0px 0px 0px -100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.incExp{
+    width: 400px;
+    height: max-content;
+   background-color: whitesmoke;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-top: 20px;
+   padding-bottom: 20px;
+   text-transform:uppercase ;
+   font-weight: bold;
+   box-shadow: 1px 2px 10px  black;
+   
+}
+.expListOne{
+    background-color: rgb(146, 142, 142);
+    border: 1px solid black;
+    border-right:9px solid red;
+   
+    width: 410px;
+    height: 35px;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    /* align-items: flex-start; */
+    cursor: default;   
+    
+}
+.expListTwo{
+    background-color: rgb(146, 142, 142);
+    border: 1px solid black;
+    border-right:9px solid rgb(9, 255, 0);
+   
+    width: 410px;
+    height: 35px;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    /* align-items: flex-start; */
+    cursor: default;    
+}
+.expArr{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+/* .delBtn{
+    border-radius: 100%;
+    border: 2px solid green;
+    margin-left: 300px;
+    margin-top: -800px;
+    font-weight: bold;
+    font-size: x-large;
+    background-color: rgb(233, 226, 226);
+    color: rgb(226, 2, 2);
+} */
